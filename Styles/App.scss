@@ -1,1 +1,5 @@
-﻿@import '../Pages/Counter';
+﻿@import 'Site.scss';
+// This Branding import is only required here to trigger an auto-recomplie if it is changed.
+@import 'Branding';
+@import '../Shared/NavMenu';
+@import '../Pages/Counter';
