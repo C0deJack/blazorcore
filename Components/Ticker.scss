@@ -1,0 +1,13 @@
+﻿@import '../Styles/Branding';
+
+.ticker {
+    &__code {
+        color: $highlight-brand-color;
+        font-weight: 800;
+    }
+
+    &__full-name {
+        color: $primary-brand-color;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,22 @@
+@import '../Styles/Branding';
+
+.author-card {
+    padding: 3px;
+    max-width: 260px;
+
+    &__image {
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        margin-right: 9px;
+    }
+
+    &__name,
+    &__publish-date {
+        color: $primary-brand-color;
+    }
+
+    &__name {
+        font-weight: 700;
+    }
+}

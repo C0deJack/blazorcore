@@ -1,0 +1,11 @@
+﻿<div class="ticker">
+    <span class="ticker__code">@TickerCode :</span>
+    <span class="ticker__full-name">@TickerFullName</span>
+</div>
+
+@code {
+    [Parameter]
+    public string TickerCode { get; set; }
+    [Parameter]
+    public string TickerFullName { get; set; }
+}

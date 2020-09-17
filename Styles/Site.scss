@@ -1,7 +1,6 @@
-﻿@import 'Branding';
+﻿// Only general and default site styling in this file.
+@import 'Branding';
 @import url('../wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css');
-
-// Only general and default site styling in this file.
 
 html, body {
     font-family: $brand-font-family;
@@ -21,6 +20,7 @@ app {
 
 .main {
     flex: 1;
+    background-color: #f1f1f1;
 
     .top-row {
         background-color: #f7f7f7;

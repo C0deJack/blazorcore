@@ -1,0 +1,17 @@
+﻿@import '../Styles/Branding';
+
+.article-title {
+    padding: 1rem 0;
+
+    &__line {
+        background-color: $highlight-brand-color;
+        width: 4px;
+        margin-right: 10px;
+        height: 50px;
+    }
+
+    h2 {
+        color: $primary-brand-color;
+        font-weight: 700;
+    }
+}
