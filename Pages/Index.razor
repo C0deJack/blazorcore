@@ -1,6 +1,29 @@
 ﻿@page "/"
+@inject HttpClient Http;
 
-<Article />
-<Article />
-<Article />
-<Article />
+<h2>Home</h2>
+
+@if (articles == null)
+{
+    <p><em>Loading articles...</em></p>
+    
+}
+else
+{
+
+    @foreach (var article in articles)
+    {
+       <ArticleCard Article="@article"/>
+    }
+
+}
+
+
+@code {
+    public Article[] articles;
+
+    protected override async Task OnInitializedAsync()
+    {
+        articles = await Http.GetFromJsonAsync<Article[]>("sample-data/articles.json");
+    }
+}
