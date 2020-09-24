@@ -1,0 +1,31 @@
+@page "/{Id:int}"
+@inject HttpClient Http
+
+
+<div class="full-article">
+    @if (article == null)
+    {
+        <h1>article not found!</h1>
+    }
+    else
+    {
+        <ArticleCard Article="@article" />
+    }
+</div>
+
+@code {
+    Article article;
+    Article[] articles;
+
+    [Parameter]
+    public int Id { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        articles = await Http.GetFromJsonAsync<Article[]>("sample-data/articles.json");
+
+        article = articles[(Id - 1)];
+
+    }
+
+}

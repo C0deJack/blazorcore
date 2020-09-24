@@ -1,11 +1,11 @@
 <div class="article-card">
-    <Ticker TickerCode="@Article.TickerCode" TickerFullName="@Article.TickerFullName"/>
-    <ArticleTitle Title="@Article.Title" Id="@Article.Id"/>
+    <Ticker TickerCode="@article.TickerCode" TickerFullName="@article.TickerFullName"/>
+    <ArticleTitle Title="@article.Title" Id="@article.Id"/>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut tenetur laborum, similique ad omnis officiis fugiat ab nostrum, magni, saepe esse dolor alias asperiores voluptatibus atque eveniet! Perspiciatis, quas.</p>
-    <AuthorCard AuthorImage="Assets/KenJeong.jpg" AuthorName="@Article.AuthorName" PublishDate="22nd March 2020 14:22"/>
+    <AuthorCard AuthorImage="Assets/KenJeong.jpg" AuthorName="@article.AuthorName" PublishDate="22nd March 2020 14:22"/>
 </div>
 
 @code {
     [Parameter]
-    public Article Article { get; set; }
+    public Article article { get; set; }
 }
