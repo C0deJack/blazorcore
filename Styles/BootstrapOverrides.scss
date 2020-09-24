@@ -1,0 +1,12 @@
+﻿@import 'Branding';
+
+.btn-primary {
+    background-color: $highlight-brand-color;
+    border-color: $highlight-brand-color;
+
+
+    &:hover {
+        background-color: $primary-brand-color;
+        border-color: $primary-brand-color;
+    }
+}

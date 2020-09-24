@@ -41,13 +41,13 @@
     }
 
     .nav-item a.active {
-        background-color: rgba(255,255,255,0.25);
-        color: white;
+        background-color: $highlight-brand-color;
+        color: $white-color;
     }
 
     .nav-item a:hover {
-        background-color: rgba(255,255,255,0.1);
-        color: white;
+        background-color: $secondary-brand-color;
+        color: $white-color;
     }
 }
 
