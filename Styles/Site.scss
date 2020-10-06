@@ -2,8 +2,21 @@
 @import 'Branding';
 @import url('../wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-html, body {
+html,
+body {
     font-family: $brand-font-family;
+    /* prevent side scroll on iphones */
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    min-width: 315px;
 }
 
 app {
