@@ -10,3 +10,12 @@
         border-color: $primary-brand-color;
     }
 }
+
+a {
+    color: $primary-brand-color;
+
+    &:hover {
+        text-decoration: none;
+        color: $highlight-brand-color;
+    }
+}

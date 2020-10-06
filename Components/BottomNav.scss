@@ -1,0 +1,20 @@
+﻿@import '../Styles/Branding';
+
+.bottom-nav {
+    box-shadow: 0 -20px 50px 0 rgba(0,0,0,.4);
+    background-color: $white-color;
+    min-width: 315px;
+
+    a {
+        color: $primary-brand-color !important;
+
+        &:hover {
+            color: $highlight-brand-color !important;
+        }
+    }
+
+    svg {
+        width: 32px;
+        height: 32px;
+    }
+}
