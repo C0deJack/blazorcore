@@ -2,7 +2,14 @@
     <Ticker TickerCode="@article.TickerCode" TickerFullName="@article.TickerFullName"/>
     <ArticleTitle Title="@article.Title" Id="@article.Id"/>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut tenetur laborum, similique ad omnis officiis fugiat ab nostrum, magni, saepe esse dolor alias asperiores voluptatibus atque eveniet! Perspiciatis, quas.</p>
-    <AuthorCard AuthorImage="Assets/KenJeong.jpg" AuthorName="@article.AuthorName" PublishDate="22nd March 2020 14:22"/>
+    
+    <div class="d-flex">
+        <div class="flex-grow-1">
+            <AuthorCard AuthorImage="Assets/KenJeong.jpg" AuthorName="@article.AuthorName" PublishDate="22nd March 2020 14:22"/>
+        </div>
+        <ArticleTags Article="@article"/>
+    </div>
+
 </div>
 
 @code {

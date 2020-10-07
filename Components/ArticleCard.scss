@@ -1,8 +1,15 @@
 @import '../Styles/Branding';
 
 .article-card {
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 20px;
     border-radius: 7px;
     background-color: $white-color;
+}
+
+@media screen and (min-width: 768px) {
+
+    .article-card {
+        margin: 1rem 1rem;
+    }
 }

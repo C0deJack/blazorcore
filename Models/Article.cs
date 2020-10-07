@@ -12,6 +12,8 @@ namespace blazorcore.Models
         public DateTime PublishDate { get; set; }
         public string TickerCode { get; set; }
         public string TickerFullName { get; set; }
+        public bool IsPremium { get; set; }
+        public bool IsMergerArbitrage { get; set; }
 
     }
 

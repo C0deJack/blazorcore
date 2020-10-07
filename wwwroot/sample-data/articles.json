@@ -5,7 +5,9 @@
     "AuthorName": "Alyssa Busson",
     "PublishDate": "2020-09-07T04:27:42Z",
     "TickerCode": "ARNA",
-    "TickerFullName": "Arena Pharmaceuticals, Inc."
+    "TickerFullName": "Arena Pharmaceuticals, Inc.",
+    "IsPremium": true,
+    "IsMergerArbitrage": false
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "AuthorName": "Kimble Sancias",
     "PublishDate": "2019-10-19T22:15:25Z",
     "TickerCode": "CHD",
-    "TickerFullName": "Church & Dwight Company, Inc."
+    "TickerFullName": "Church & Dwight Company, Inc.",
+    "IsPremium": false,
+    "IsMergerArbitrage": true
   },
   {
     "id": 3,
@@ -21,7 +25,9 @@
     "AuthorName": "Kassia Went",
     "PublishDate": "2020-07-23T07:11:20Z",
     "TickerCode": "AVX",
-    "TickerFullName": "AVX Corporation"
+    "TickerFullName": "AVX Corporation",
+    "IsPremium": true,
+    "IsMergerArbitrage": true
   },
   {
     "id": 4,
@@ -29,7 +35,9 @@
     "AuthorName": "Waly Maddin",
     "PublishDate": "2020-07-23T20:10:21Z",
     "TickerCode": "EPIX",
-    "TickerFullName": "ESSA Pharma Inc."
+    "TickerFullName": "ESSA Pharma Inc.",
+    "IsPremium": false,
+    "IsMergerArbitrage": false
   },
   {
     "id": 5,
@@ -37,7 +45,9 @@
     "AuthorName": "Florie Garlee",
     "PublishDate": "2020-06-17T00:08:06Z",
     "TickerCode": "APD",
-    "TickerFullName": "Air Products and Chemicals, Inc."
+    "TickerFullName": "Air Products and Chemicals, Inc.",
+    "IsPremium": false,
+    "IsMergerArbitrage": true
   },
   {
     "id": 6,
@@ -45,7 +55,9 @@
     "AuthorName": "Breanne Melton",
     "PublishDate": "2020-01-05T16:57:44Z",
     "TickerCode": "EROS",
-    "TickerFullName": "Eros International PLC"
+    "TickerFullName": "Eros International PLC",
+    "IsPremium": false,
+    "IsMergerArbitrage": true
   },
   {
     "id": 7,
@@ -53,7 +65,9 @@
     "AuthorName": "Dieter MacGiffin",
     "PublishDate": "2020-07-23T21:53:05Z",
     "TickerCode": "BBG",
-    "TickerFullName": "Bill Barrett Corporation"
+    "TickerFullName": "Bill Barrett Corporation",
+    "IsPremium": false,
+    "IsMergerArbitrage": false
   },
   {
     "id": 8,
@@ -61,7 +75,9 @@
     "AuthorName": "Sari Brigginshaw",
     "PublishDate": "2019-11-16T12:06:03Z",
     "TickerCode": "HUM",
-    "TickerFullName": "Humana Inc."
+    "TickerFullName": "Humana Inc.",
+    "IsPremium": false,
+    "IsMergerArbitrage": false
   },
   {
     "id": 9,
@@ -69,7 +85,9 @@
     "AuthorName": "Jolee Rodrig",
     "PublishDate": "2020-07-30T06:02:52Z",
     "TickerCode": "IVR",
-    "TickerFullName": "INVESCO MORTGAGE CAPITAL INC"
+    "TickerFullName": "INVESCO MORTGAGE CAPITAL INC",
+    "IsPremium": true,
+    "IsMergerArbitrage": true
   },
   {
     "id": 10,
@@ -77,6 +95,8 @@
     "AuthorName": "Rufe Semon",
     "PublishDate": "2020-08-31T05:19:38Z",
     "TickerCode": "ROYT",
-    "TickerFullName": "Pacific Coast Oil Trust"
+    "TickerFullName": "Pacific Coast Oil Trust",
+    "IsPremium": true,
+    "IsMergerArbitrage": true
   }
 ]

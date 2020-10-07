@@ -1,0 +1,19 @@
+﻿<div class="article-tags text-center h-100">
+    @if (article.IsPremium)
+    {
+        <span class="article-tags__premium align-middle mx-2">
+            <img src="Assets/crown.svg" alt="crown svg">
+            <div>Premium</div>
+        </span>
+    }
+
+    @if (article.IsMergerArbitrage)
+    {
+        <span class="article-tags__ma align-middle p-2">MA</span>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public Article article { get; set; }
+}
