@@ -1,0 +1,30 @@
+@import '../Styles/Branding';
+
+.header-top {
+    background-color: $primary-brand-color;
+
+    a {
+        color: $white-color;
+    }
+
+    &__logo {
+        width: 36px;
+        margin-left: 5px;
+    }
+
+    .nav-link {
+        background-color: $secondary-brand-color;
+        padding: .3rem 1rem;
+    }
+
+    &__company-name {
+        color: $white-color;
+        display: inline-block;
+        font-size: 24px;
+        margin-left: 12px;
+    }
+
+    &__search {
+        width: 25px;
+    }
+}

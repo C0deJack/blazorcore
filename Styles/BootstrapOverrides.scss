@@ -1,6 +1,7 @@
 ﻿@import 'Branding';
 
-.btn-primary {
+.btn-primary,
+.nav-pills .nav-link.active {
     background-color: $highlight-brand-color;
     border-color: $highlight-brand-color;
 
